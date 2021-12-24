@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: block;
+}
+
+.top {
+	background: red;
+	text-align: center;
+	padding: 60px;
+	font-family: cursive;
+	color: white;
+	border-radius:50px;
+
+}
+
+.bar {
+	background-color: grey;
+	overflow: hidden;
+}
+
+.bar a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	background: grey;
+	display: block;
+}
+
+.bar a:hover {
+	background-color: black;
+	color: red;
+}
+
+.info {
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about {
+	flex: 30%; 
+	background: skyblue;
+	padding: 20px;
+}
+
+.Descriptions {
+	-ms-flex: 70%;
+	flex: 30%;
+	background: lightgrey;
+	padding: 20px;
+}
+
+.footer {
+	display:flex;
+	justify-content:center;
+	background: darkgray;
+}
+
+h2 {
+	display: block;
+}
